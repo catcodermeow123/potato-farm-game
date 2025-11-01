@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato farm game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h2 class="stat cash">💰 50</h2><br>
+    <br><br><br><br><br><br>
+    <button onClick="ins()">Too broke? Click here! [Insurance]</button>
+    <br><br>
+    <div class="shop">
+        <h2>Shop</h2>
+        <button onClick="info()" class="info"> Info </button><br>
+        <button onClick="buy('p', 1, 25)"> - Potato - <br><strong>25$</strong></button>
+        <button onClick="buy('bp', 1, 200)"> - Big Potato - <br><strong>200$</strong></button>
+        <button onClick="buy('f', 1, 300)"> - Fertilizer - <br><strong>300$</strong></button>
+        <button onClick="buy('cp', 1, 300)"> - Cat Potato - <br><strong>300$</strong></button>
+        <button onClick="buy('bmbp', 1, 300)"> - Bomb Potato - <br><strong>300$</strong></button>
+    </div>
+    <br>
+    <div class="farm-gui">
+        <h2>Farm</h2>
+        <button onClick="growing()" class="grow-btn">Start Growing (takes 10 seconds)</button>
+        <p class="farm">No potatoes... yet.</p>
+    </div>
+</body>
+</html>
