@@ -1,2 +1,2 @@
 # potato-farm-game
-a game where you grow potatoes
+This is a game where you grow potatoes.
