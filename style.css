@@ -1,0 +1,15 @@
+.stat{
+    position: fixed;
+}
+.shop{
+    border-style:solid;
+    border-width:3px;
+}
+.farm-gui{
+    background-color: brown;
+    border-style: solid;
+    border-width: 3px;
+}
+button{
+    cursor:pointer;
+}
